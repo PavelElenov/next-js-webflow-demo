@@ -19,7 +19,7 @@ export default function PriceCard({ params, searchParams }: { params: IPriceCard
             <p className="price-card-price-per-month"><span className="price-per-month">${params.pricePerMonth}</span>/month</p>
             <p className="price-card-text">{params.priceCardText}</p>
             <ul>
-                {params.priceCardOptions.map(option => <li key={option} className="price-card-option">{option}</li>)}
+                {params.priceCardOptions?.map(option => <li key={option} className="price-card-option">{option}</li>)}
             </ul>
             <button className="price-card-button">Sign up</button>
         </div>
