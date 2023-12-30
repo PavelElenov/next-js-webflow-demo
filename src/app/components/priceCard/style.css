@@ -1,0 +1,49 @@
+.price-card {
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 1.5rem;
+    text-align: left;
+    max-width: 23rem;
+    color: black;
+    box-shadow: 0px 0px 9px 1px grey;
+}
+
+.price-card-header {
+    font-size: 1rem;
+    color: hsla(245.1428571428571, 44.87%, 30.59%, 1.00);
+    margin-bottom: 1rem;
+}
+
+.price-per-month {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.price-card-price-per-month {
+    margin-bottom: 0.5rem;
+}
+
+.price-card-text {
+    margin-bottom: 1rem;
+}
+
+.price-card-option {
+    list-style: disc;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+}
+
+.price-card-button {
+    width: 100%;
+    background-color: hsla(247.6190476190476, 42.28%, 29.22%, 1.00);
+    color: white;
+    padding: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 5rem;
+}
+
+.price-card-button:hover {
+    background-color: #9cd1e2;
+    color: #292863;
+}

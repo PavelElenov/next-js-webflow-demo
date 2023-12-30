@@ -1,0 +1,23 @@
+.trusted-by-brands-imgs-wrapper {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.trusted-by-brands-img-wrapper {
+    width: 200px;
+    height: 40px;
+}
+
+.trusted-by-brands-header {
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    color: hsla(245.1428571428571, 44.87%, 30.59%, 1.00);
+    font-family: 'Playfair Display';
+}
+
+.trusted-by-brands {
+    padding: 3rem;
+}

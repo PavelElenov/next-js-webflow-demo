@@ -1,0 +1,72 @@
+.find-the-right-price {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to bottom, #16162d, #1d1d3f, #252451, #2d2c64, #363378);
+    padding-top: 3rem;
+    position: relative;
+    height: 40rem;
+    margin-bottom: 10rem;
+}
+
+.find-the-right-price-header {
+    font-family: 'Playfair Display';
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+
+.find-the-right-price-text {
+    max-width: 41rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.price-cards-wrapper {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -9rem;
+    gap: 1.5rem;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 715px){
+    .price-cards-wrapper {
+        bottom: -11rem;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .price-cards-wrapper {
+        flex-direction: column;
+        bottom: -42rem;
+        align-items: center;
+    }
+
+    .find-the-right-price {
+        margin-bottom: 45rem;
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .price-cards-wrapper {
+        bottom: -48rem;
+    }
+
+    .find-the-right-price {
+        margin-bottom: 48rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .price-cards-wrapper {
+        bottom: -53rem;
+    }
+
+    .find-the-right-price {
+        margin-bottom: 53rem;
+    }
+}
