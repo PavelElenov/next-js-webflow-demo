@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import "../../devlink/global.css";
 import { DevLinkProvider, Navbar } from '../../devlink';
+import Footer from './components/footer/page';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <DevLinkProvider>
           <Navbar></Navbar>
           {children}
+          <Footer></Footer>
         </DevLinkProvider>
       </body>
     </html>

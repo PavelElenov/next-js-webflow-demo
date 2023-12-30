@@ -1,0 +1,18 @@
+.footer{
+    width: 100%;
+    background-color: hsla(245.1428571428571, 44.87%, 30.59%, 1.00);
+    padding:3rem;
+    color:white;
+    text-align: center;
+}
+
+.footer-option{
+    list-style: none;
+    display: inline-block;
+    margin-right: 0.5rem;
+    text-decoration: underline;
+}
+
+.footer-options{
+    margin-bottom:1rem;
+}

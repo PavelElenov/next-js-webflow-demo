@@ -11,7 +11,7 @@ export interface IPriceCardData {
 
 }
 
-export default function PriceCard({ params, searchParams }: { params: IPriceCardData, searchParams?: string | undefined }) {
+export default function PriceCard({ params }: { params: IPriceCardData }) {
 
     return (
         <div className="price-card">
